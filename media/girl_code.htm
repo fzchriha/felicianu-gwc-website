@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<!-- saved from url=(0108)https://www.vectorstock.com/royalty-free-vector/female-programmer-character-coding-on-laptop-vector-23879397 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf5eb0965952096">
+	<meta name="csrf-value" content="3b0a507eac291e7a7dfabfe37636bef4">
+<script type="text/javascript" src="./girl_code_files/02e09611df"></script><script src="./girl_code_files/nr-1167.min.js"></script><script type="text/javascript" async="" src="./girl_code_files/linkid.js"></script><script async="" src="./girl_code_files/analytics.js"></script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var i=n[t]={exports:{}};e[t][0].call(i.exports,function(n){var i=e[t][1][n];return r(i||n)},i,i.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<t.length;i++)r(t[i]);return r}({1:[function(e,n,t){function r(){}function i(e,n,t){return function(){return o(e,[u.now()].concat(f(arguments)),n?null:this,t),n?void 0:this}}var o=e("handle"),a=e(4),f=e(5),c=e("ee").get("tracer"),u=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",d=l+"ixn-";a(p,function(e,n){s[n]=i(l+n,!0,"api")}),s.addPageAction=i(l+"addPageAction",!0),s.setCurrentRouteName=i(l+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,i="function"==typeof n;return o(d+"tracer",[u.now(),e,t],r),function(){if(c.emit((i?"":"no-")+"fn-start",[u.now(),r,i],t),i)try{return n.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],t),e}finally{c.emit("fn-end",[u.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=i(d+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),o("err",[e,u.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){var t=e.getEntries();t.forEach(function(e){"first-paint"===e.name?c("timing",["fp",Math.floor(e.startTime)]):"first-contentful-paint"===e.name&&c("timing",["fcp",Math.floor(e.startTime)])})}function i(e,n){var t=e.getEntries();t.length>0&&c("lcp",[t[t.length-1]])}function o(e){if(e instanceof s&&!l){var n,t=Math.round(e.timeStamp);n=t>1e12?Date.now()-t:u.now()-t,l=!0,c("timing",["fi",t,{type:e.type,fid:n}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,f,c=e("handle"),u=e("loader"),s=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),f=new PerformanceObserver(i);try{a.observe({entryTypes:["paint"]}),f.observe({entryTypes:["largest-contentful-paint"]})}catch(p){}}if("addEventListener"in document){var l=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(e){document.addEventListener(e,o,!1)})}}},{}],3:[function(e,n,t){function r(e,n){if(!i)return!1;if(e!==i)return!1;if(!n)return!0;if(!o)return!1;for(var t=o.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var f=navigator.userAgent,c=f.match(a);c&&f.indexOf("Chrome")===-1&&f.indexOf("Chromium")===-1&&(i="Safari",o=c[1])}n.exports={agent:i,version:o,match:r}},{}],4:[function(e,n,t){function r(e,n){var t=[],r="",o=0;for(r in e)i.call(e,r)&&(t[o]=n(r,e[r]),o+=1);return t}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],5:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,i=t-n||0,o=Array(i<0?0:i);++r<i;)o[r]=e[n+r];return o}n.exports=r},{}],6:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function i(e){function n(e){return e&&e instanceof r?e:e?c(e,f,o):o()}function t(t,r,i,o){if(!l.aborted||o){e&&e(t,r,i);for(var a=n(i),f=v(t),c=f.length,u=0;u<c;u++)f[u].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function d(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||i(t)}function w(e,n){u(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:d,addEventListener:d,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function o(){return new r}function a(){(s.api||s.feature)&&(l.aborted=!0,s=l.backlog={})}var f="nr@context",c=e("gos"),u=e(4),s={},p={},l=n.exports=i();l.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(i.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return e[n]=r,r}var i=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){i.buffer([e],r),i.emit(e,n,t)}var i=e("ee").get("handle");n.exports=r,r.ee=i},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,o,function(){return i++})}var i=1,o="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!x++){var e=E.info=NREUM.info,n=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();u(y,function(n,t){e[n]||(e[n]=t)}),c("mark",["onload",a()+E.offset],null,"api");var t=d.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function i(){"complete"===d.readyState&&o()}function o(){c("mark",["domContent",a()+E.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(f=Math.max((new Date).getTime(),f))-E.offset}var f=(new Date).getTime(),c=e("handle"),u=e(4),s=e("ee"),p=e(3),l=window,d=l.document,m="addEventListener",v="attachEvent",g=l.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:l.setImmediate,CT:clearTimeout,XHR:g,REQ:l.Request,EV:l.Event,PR:l.Promise,MO:l.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1167.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),E=n.exports={offset:f,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),e(2),d[m]?(d[m]("DOMContentLoaded",o,!1),l[m]("load",r,!1)):(d[v]("onreadystatechange",i),l[v]("onload",r)),c("mark",["firstbyte",f],null,"api");var x=0,O=e(6)},{}],"wrap-function":[function(e,n,t){function r(e){return!(e&&e instanceof Function&&e.apply&&!e[a])}var i=e("ee"),o=e(5),a="nr@original",f=Object.prototype.hasOwnProperty,c=!1;n.exports=function(e,n){function t(e,n,t,i){function nrWrapper(){var r,a,f,c;try{a=this,r=o(arguments),f="function"==typeof t?t(r,a):t||{}}catch(u){l([u,"",[r,a,i],f])}s(n+"start",[r,a,i],f);try{return c=e.apply(a,r)}catch(p){throw s(n+"err",[r,a,p],f),p}finally{s(n+"end",[r,a,c],f)}}return r(e)?e:(n||(n=""),nrWrapper[a]=e,p(e,nrWrapper),nrWrapper)}function u(e,n,i,o){i||(i="");var a,f,c,u="-"===i.charAt(0);for(c=0;c<n.length;c++)f=n[c],a=e[f],r(a)||(e[f]=t(a,u?f+i:i,o,f))}function s(t,r,i){if(!c||n){var o=c;c=!0;try{e.emit(t,r,i,n)}catch(a){l([a,t,r,i])}c=o}}function p(e,n){if(Object.defineProperty&&Object.keys)try{var t=Object.keys(e);return t.forEach(function(t){Object.defineProperty(n,t,{get:function(){return e[t]},set:function(n){return e[t]=n,n}})}),n}catch(r){l([r])}for(var i in e)f.call(e,i)&&(n[i]=e[i]);return n}function l(n){try{e.emit("internal-error",n)}catch(t){}}return e||(e=i),t.inPlace=u,t.flag=a,t}},{}]},{},["loader"]);</script>	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<link rel="dns-prefetch" href="https://cdn.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn1.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn2.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn3.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn4.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn5.vectorstock.com/">
+
+	<title>Female programmer character coding on laptop Vector Image</title>
+	<meta name="description" content="Female Programmer Character Coding on Laptop Computer Vector Illustration on White Background. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions..">
+	
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="og:type" content="product">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/female-programmer-character-coding-on-laptop-vector-23879397">
+	<meta property="og:title" content="Female programmer character coding on laptop vector image on VectorStock">
+	<meta property="og:description" content="Female Programmer Character Coding on Laptop Computer Vector Illustration on White Background. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+	<meta property="og:image" content="https://cdn3.vectorstock.com/i/1000x1000/93/97/female-programmer-character-coding-on-laptop-vector-23879397.jpg">
+	<meta property="og:image:url" content="https://cdn3.vectorstock.com/i/1000x1000/93/97/female-programmer-character-coding-on-laptop-vector-23879397.jpg">
+	<meta property="og:image:secure_url" content="https://cdn3.vectorstock.com/i/1000x1000/93/97/female-programmer-character-coding-on-laptop-vector-23879397.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="1000">
+	<meta property="og:price:amount" content="0.69">
+	<meta property="og:price:currency" content="USD">
+	<meta property="product:price:amount" content="0.69">
+	<meta property="product:price:currency" content="USD">
+
+	<meta property="fb:app_id" content="241100862642313">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/female-programmer-character-coding-on-laptop-vector-23879397">
+	<meta name="twitter:title" content="Female programmer character coding on laptop vector image">
+	<meta name="twitter:description" content="Female Programmer Character Coding on Laptop Computer Vector Illustration on White Background.">
+	<meta name="twitter:image" content="https://cdn3.vectorstock.com/i/thumb-large/93/97/female-programmer-character-coding-on-laptop-vector-23879397.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+	<meta name="twitter:site" content="@VectorStock">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/female-programmer-character-coding-on-laptop-vector-23879397">
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="./girl_code_files/common1588134853.min.css">
+	<link rel="stylesheet" href="./girl_code_files/vector1588134853.min.css">
+	<script src="./girl_code_files/common1588290952.min.js"></script>
+	<script src="./girl_code_files/vector1588290952.min.js"></script>
+<!-- Analytics --><script type="text/javascript">// Load GA script
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+// Setup
+ga('create', 'UA-2180430-2', 'none');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+
+</script>
+</head>
+<body data-gr-c-s-loaded="true">
+
+<!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search…" maxlength="50" autofocus="">
+								<button type="button" data-action="clear">×</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					<div class="suggestions"><div></div></div></fieldset>
+
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="https://www.vectorstock.com/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+		<nav id="searchrelated"></nav>	
+
+		<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+							<ul>
+								<li><a href="https://www.vectorstock.com/signup">Sign Up</a></li>
+								<li data-action="login"><a href="https://www.vectorstock.com/?login=1">Login…</a></li>
+								<li><a href="https://www.vectorstock.com/pricing">Pricing</a></li>
+							</ul>
+						</li>
+				</ul>
+				<form method="get" action="https://www.vectorstock.com/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="https://www.vectorstock.com/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Log In</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We're the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you're a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="https://www.vectorstock.com/signup">Sign up now, it’s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="https://www.vectorstock.com/auth/login" method="post">
+
+
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2" maxlength="20">
+						</div>
+					</fieldset>
+					<fieldset>
+						<div class="checkbox checked">
+							<label class="selected" for="vs_remember">
+								<span class="title">Stay Logged In</span>
+								<span class="icon"></span>
+								<input type="checkbox" id="vs_remember" name="vs_remember" value="yes" tabindex="3" checked="">
+							</label>
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Log In</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="https://www.vectorstock.com/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="https://www.vectorstock.com/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+				
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset" style="min-height: 720px; max-width: 628px;">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1">
+					</li>
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors/coding-vectors">
+							<span itemprop="name">Coding Vectors</span>
+						</a>
+						<meta itemprop="position" content="2">
+					</li>
+				</ol>
+
+				<h1>
+					Female programmer character coding on laptop vector&nbsp;image														</h1>
+
+				<figure style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn3.vectorstock.com/i/1000x1000/93/97/female-programmer-character-coding-on-laptop-vector-23879397.jpg">
+						<noscript><img src="https://cdn3.vectorstock.com/i/1000x1000/93/97/female-programmer-character-coding-on-laptop-vector-23879397.jpg" title="Female programmer character coding on laptop vector image" alt="Female programmer character coding on laptop"></noscript>
+					<img src="./girl_code_files/female-programmer-character-coding-on-laptop-vector-23879397.jpg"></div>
+					<div class="lowres">
+						<img src="./girl_code_files/female-programmer-character-coding-on-laptop-vector-23879397(1).jpg" title="Female programmer character coding on laptop vector image" alt="Female programmer character coding on laptop">
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payments="3" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="23879397">
+					<input type="hidden" id="vector_title" value="Female programmer character coding on laptop">
+					<input type="hidden" id="vector_description" value="Female Programmer Character Coding on Laptop Computer Vector Illustration on White Background. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/female-programmer-character-coding-on-laptop-vector-23879397">
+					<input type="hidden" id="vector_media" value="https://cdn3.vectorstock.com/i/1000x1000/93/97/female-programmer-character-coding-on-laptop-vector-23879397.jpg">
+					<input type="hidden" id="vector_ratio" value="1">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="TopVectors">
+					<input type="hidden" id="account_user" value="0">
+
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="https://www.vectorstock.com/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset>
+									<label for="f_license_standard" class="checked">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">For Print, Advertising, Design</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">For Resale &amp; Reproduction</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Graphic Design</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Web Design</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Social Media</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+																						<td data-license="standard"><span class="yes"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Multi-user</td>
+																						<td data-license="standard"><span class="no"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Resale Items</td>
+																						<td data-license="standard"><span class="no"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+										<tr>
+											<td>Unlimited Runs</td>
+																						<td data-license="standard"><span class="no"></span></td>
+											<td data-license="expanded"><span class="yes"></span></td>										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+																<fieldset>
+									<label for="f_payment_standard_single-image" class="checked">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image" checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+																<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>$</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>There are three ways to pay for Standard licenses. Prices are $<abbr title="United States Dollars">US</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69c</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+																<fieldset>
+									<label for="f_payment_expanded_single-image" class="checked">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="29.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>29.99</var></span>
+									</label>
+								</fieldset>
+																<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are $<abbr title="United States Dollars">US</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>29.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">New Option!</span><a href="https://www.vectorstock.com/faq/members/what-is-hire-a-designer">What is this?</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization" class="checked_">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="84" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="value"><small>$</small><var>84.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We'll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+					<div class="download_options">
+						<div class="wrap">
+							<div class="optgroup" data-action="download">
+								<span class="header">Download File/s:</span>
+								<div class="dropdown" data-value="zip">
+									<div class="display">
+										<span class="label"><strong>ZIP Archive</strong></span>
+										<span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M10.6,12.8 15,17.2 19.4,12.8"></path></svg></span>
+									</div>
+									<div class="select">
+										<select>
+											<optgroup label="All Files">
+												<option value="zip" data-label="ZIP Archive" data-details="" data-url="" selected="selected">ZIP Archive</option>											</optgroup>
+											<optgroup label="Image">
+												<option value="jpg" data-label="High-res JPG" data-details="300 DPI+" data-url="">High-res JPG (300 DPI+)</option>												<option value="png" data-label="High-res PNG" data-details="300 DPI+" data-url="">High-res PNG (300 DPI+)</option>											</optgroup>
+											<optgroup label="Vector">
+												<option value="ai" data-label="Adobe Illustrator" data-details="v10+" data-url="">Adobe Illustrator (v10+)</option>												<option value="eps" data-label="Vector EPS" data-details="v8+" data-url="">Vector EPS (v8+)</option>												<option value="pdf" data-label="Vector PDF" data-details="" data-url="">Vector PDF</option>											</optgroup>
+										</select>
+									</div>
+								</div>
+								<button type="button" data-action="download_file">
+									<span class="label">Download ZIP</span>
+									<span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><path d="M23.6,21.2 23.6,9.5 16.4,9.5 16.4,21.3 10.8,21.3 11,21.5 20,30.5 29.2,21.3"></path></svg></span>
+								</button>
+							</div>
+							<div class="optgroup" data-action="customization" data-status="uninitiated">
+								<span class="header">Image Customization:</span>
+								<ul class="actions">
+									<li>
+										<button type="button" data-job-url="/customizations">
+											<span class="label">Get started...</span>
+											<span class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"><path d="M12.8,19.4 17.2,15 12.8,10.6"></path></svg></span>
+										</button>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="square" style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn3.vectorstock.com/i/1000x1000/93/97/female-programmer-character-coding-on-laptop-vector-23879397.jpg">
+						<noscript><img src="https://cdn3.vectorstock.com/i/1000x1000/93/97/female-programmer-character-coding-on-laptop-vector-23879397.jpg" title="Female programmer character coding on laptop vector image" alt="Female programmer character coding on laptop"></noscript>
+					<img src="./girl_code_files/female-programmer-character-coding-on-laptop-vector-23879397.jpg"></div>
+					<div class="lowres">
+						<img src="./girl_code_files/female-programmer-character-coding-on-laptop-vector-23879397(1).jpg" title="Female programmer character coding on laptop vector image" alt="Female programmer character coding on laptop">
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<h4>Share on</h4>
+							<ul>
+								<li class="pinterest"><button type="button" data-action="pinterest"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"></path></svg></span><span class="label">Pinterest</span></span></button></li>
+								<li class="facebook"><button type="button" data-action="facebook"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"></path></svg></span><span class="label">Facebook</span></span></button></li>
+								<li class="twitter"><button type="button" data-action="twitter"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"></path></svg></span><span class="label">Twitter</span></span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>23879397</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_TopVectors" rel="nofollow">TopVectors</a><button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button></dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="1"><span class="icon">♥</span><span class="label">Like</span><span class="tally">(1)</span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/Product" itemscope="">
+					<meta itemprop="sku" content="23879397">
+					<meta itemprop="productID" content="23879397">
+					<meta itemprop="name" content="Female programmer character coding on laptop">
+					<meta itemprop="description" content="Female Programmer Character Coding on Laptop Computer Vector Illustration on White Background. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+					<meta itemprop="releaseDate" content="2019-02-15">
+					<link itemprop="image" href="./girl_code_files/female-programmer-character-coding-on-laptop-vector-23879397.jpg">
+					
+					<div itemprop="brand" itemtype="http://schema.org/Thing" itemscope="">
+						<meta itemprop="name" content="VectorStock">
+					</div>
+					<div itemprop="offers" itemtype="http://schema.org/Offer" itemscope="">
+						<link itemprop="url" href="https://www.vectorstock.com/royalty-free-vector/female-programmer-character-coding-on-laptop-vector-23879397">
+						<meta itemprop="availability" content="https://schema.org/InStock">
+						<div itemprop="price">0.69</div>
+						<div itemprop="priceCurrency">USD</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="vs-related">
+			<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/03/22/female-woman-programmer-coding-on-vector-22000322.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/female-woman-programmer-coding-on-vector-22000322" title="female woman programmer coding on vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/03/22/female-woman-programmer-coding-on-vector-22000322.jpg" title="female woman programmer coding on" alt="female woman programmer coding on vector image"></noscript><img src="./girl_code_files/female-woman-programmer-coding-on-vector-22000322.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/67/42/woman-programmer-at-work-process-vector-23906742.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/woman-programmer-at-work-process-vector-23906742" title="woman programmer at work process vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/67/42/woman-programmer-at-work-process-vector-23906742.jpg" title="woman programmer at work process" alt="woman programmer at work process vector image"></noscript><img src="./girl_code_files/woman-programmer-at-work-process-vector-23906742.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/80/27/professional-programmer-with-laptop-flat-vector-26228027.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/professional-programmer-with-laptop-flat-vector-26228027" title="professional programmer with laptop flat vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/80/27/professional-programmer-with-laptop-flat-vector-26228027.jpg" title="professional programmer with laptop flat" alt="professional programmer with laptop flat vector image"></noscript><img src="./girl_code_files/professional-programmer-with-laptop-flat-vector-26228027.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/14/54/set-office-people-managers-designers-and-vector-29371454.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/set-office-people-managers-designers-and-vector-29371454" title="set office people managers designers and vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/14/54/set-office-people-managers-designers-and-vector-29371454.jpg" title="set office people managers designers and" alt="set office people managers designers and vector image"></noscript><img src="./girl_code_files/set-office-people-managers-designers-and-vector-29371454.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/49/34/young-pretty-woman-programmer-sitting-at-the-vector-21054934.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/young-pretty-woman-programmer-sitting-at-the-vector-21054934" title="young pretty woman programmer sitting at the vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/49/34/young-pretty-woman-programmer-sitting-at-the-vector-21054934.jpg" title="young pretty woman programmer sitting at the" alt="young pretty woman programmer sitting at the vector image"></noscript><img src="./girl_code_files/young-pretty-woman-programmer-sitting-at-the-vector-21054934.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/32/86/flat-woman-and-man-at-floor-with-laptop-vector-29083286.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/flat-woman-and-man-at-floor-with-laptop-vector-29083286" title="flat woman and man at floor with laptop vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/32/86/flat-woman-and-man-at-floor-with-laptop-vector-29083286.jpg" title="flat woman and man at floor with laptop" alt="flat woman and man at floor with laptop vector image"></noscript><img src="./girl_code_files/flat-woman-and-man-at-floor-with-laptop-vector-29083286.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/32/36/programmer-girl-character-vector-24253236.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/programmer-girl-character-vector-24253236" title="programmer girl character vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/32/36/programmer-girl-character-vector-24253236.jpg" title="programmer girl character" alt="programmer girl character vector image"></noscript><img src="./girl_code_files/programmer-girl-character-vector-24253236.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/19/24/website-development-concept-modern-flat-design-vector-22431924.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/website-development-concept-modern-flat-design-vector-22431924" title="website development concept modern flat design vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/19/24/website-development-concept-modern-flat-design-vector-22431924.jpg" title="website development concept modern flat design" alt="website development concept modern flat design vector image"></noscript><img src="./girl_code_files/website-development-concept-modern-flat-design-vector-22431924.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/45/41/it-worker-at-workplace-website-landing-page-vector-27834541.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/it-worker-at-workplace-website-landing-page-vector-27834541" title="it worker at workplace website landing page vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/45/41/it-worker-at-workplace-website-landing-page-vector-27834541.jpg" title="it worker at workplace website landing page" alt="it worker at workplace website landing page vector image"></noscript><img src="./girl_code_files/it-worker-at-workplace-website-landing-page-vector-27834541.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/83/31/kids-coding-at-computers-cartoon-character-vector-26548331.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/kids-coding-at-computers-cartoon-character-vector-26548331" title="kids coding at computers cartoon character vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/83/31/kids-coding-at-computers-cartoon-character-vector-26548331.jpg" title="kids coding at computers cartoon character" alt="kids coding at computers cartoon character vector image"></noscript><img src="./girl_code_files/kids-coding-at-computers-cartoon-character-vector-26548331.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/67/41/html-button-woman-programmer-with-laptop-coding-vector-27876741.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/html-button-woman-programmer-with-laptop-coding-vector-27876741" title="html button woman programmer with laptop coding vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/67/41/html-button-woman-programmer-with-laptop-coding-vector-27876741.jpg" title="html button woman programmer with laptop coding" alt="html button woman programmer with laptop coding vector image"></noscript><img src="./girl_code_files/html-button-woman-programmer-with-laptop-coding-vector-27876741.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/68/14/freelance-woman-work-from-home-in-armchair-vector-23376814.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/freelance-woman-work-from-home-in-armchair-vector-23376814" title="freelance woman work from home in armchair vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/68/14/freelance-woman-work-from-home-in-armchair-vector-23376814.jpg" title="freelance woman work from home in armchair" alt="freelance woman work from home in armchair vector image"></noscript><img src="./girl_code_files/freelance-woman-work-from-home-in-armchair-vector-23376814.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/88/51/a-set-business-scenes-with-tiny-men-and-women-vector-25898851.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/a-set-business-scenes-with-tiny-men-and-women-vector-25898851" title="a set business scenes with tiny men and women vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/88/51/a-set-business-scenes-with-tiny-men-and-women-vector-25898851.jpg" title="a set business scenes with tiny men and women" alt="a set business scenes with tiny men and women vector image"></noscript><img src="./girl_code_files/a-set-business-scenes-with-tiny-men-and-women-vector-25898851.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/09/25/person-computer-desk-home-freelance-work-vector-24930925.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/person-computer-desk-home-freelance-work-vector-24930925" title="person computer desk home freelance work vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/09/25/person-computer-desk-home-freelance-work-vector-24930925.jpg" title="person computer desk home freelance work" alt="person computer desk home freelance work vector image"></noscript><img src="./girl_code_files/person-computer-desk-home-freelance-work-vector-24930925.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/95/72/female-programmer-it-developer-character-vector-26219572.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/female-programmer-it-developer-character-vector-26219572" title="female programmer it developer character vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/95/72/female-programmer-it-developer-character-vector-26219572.jpg" title="female programmer it developer character" alt="female programmer it developer character vector image"></noscript><img src="./girl_code_files/female-programmer-it-developer-character-vector-26219572.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/31/62/not-female-professions-strong-muscular-woman-vector-23933162.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/not-female-professions-strong-muscular-woman-vector-23933162" title="not female professions strong muscular woman vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/31/62/not-female-professions-strong-muscular-woman-vector-23933162.jpg" title="not female professions strong muscular woman" alt="not female professions strong muscular woman vector image"></noscript><img src="./girl_code_files/not-female-professions-strong-muscular-woman-vector-23933162.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/50/94/woman-or-female-with-notebook-doing-remote-job-vector-21895094.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/woman-or-female-with-notebook-doing-remote-job-vector-21895094" title="woman or female with notebook doing remote job vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/50/94/woman-or-female-with-notebook-doing-remote-job-vector-21895094.jpg" title="woman or female with notebook doing remote job" alt="woman or female with notebook doing remote job vector image"></noscript><img src="./girl_code_files/woman-or-female-with-notebook-doing-remote-job-vector-21895094.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/84/49/people-work-with-computers-students-work-with-vector-30518449.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/people-work-with-computers-students-work-with-vector-30518449" title="people work with computers students work with vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/84/49/people-work-with-computers-students-work-with-vector-30518449.jpg" title="people work with computers students work with" alt="people work with computers students work with vector image"></noscript><img src="./girl_code_files/people-work-with-computers-students-work-with-vector-30518449.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/72/44/isometric-stylish-woman-a-business-lady-manages-vector-22547244.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/isometric-stylish-woman-a-business-lady-manages-vector-22547244" title="isometric stylish woman a business lady manages vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/72/44/isometric-stylish-woman-a-business-lady-manages-vector-22547244.jpg" title="isometric stylish woman a business lady manages" alt="isometric stylish woman a business lady manages vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/38/11/modern-landing-page-set-06-vector-23103811.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/modern-landing-page-set-06-vector-23103811" title="modern landing page set 06 vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/38/11/modern-landing-page-set-06-vector-23103811.jpg" title="modern landing page set 06" alt="modern landing page set 06 vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="25503888" data-title="female freelancer working in chair" data-src="https://cdn4.vectorstock.com/i/thumbs/38/88/female-freelancer-working-in-chair-vector-25503888.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/female-freelancer-working-in-chair-vector-25503888" title="female freelancer working in chair vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/38/88/female-freelancer-working-in-chair-vector-25503888.jpg" title="female freelancer working in chair" alt="female freelancer working in chair vector image"></noscript></a></li>
+						<li data-id="23995325" data-title="programmers or coders working together front-end" data-src="https://cdn1.vectorstock.com/i/thumbs/53/25/programmers-or-coders-working-together-front-end-vector-23995325.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/programmers-or-coders-working-together-front-end-vector-23995325" title="programmers or coders working together front-end vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/53/25/programmers-or-coders-working-together-front-end-vector-23995325.jpg" title="programmers or coders working together front-end" alt="programmers or coders working together front-end vector image"></noscript></a></li>
+						<li data-id="21360192" data-title="office workers work in team at table with laptops" data-src="https://cdn3.vectorstock.com/i/thumbs/01/92/office-workers-work-in-team-at-table-with-laptops-vector-21360192.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/office-workers-work-in-team-at-table-with-laptops-vector-21360192" title="office workers work in team at table with laptops vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/01/92/office-workers-work-in-team-at-table-with-laptops-vector-21360192.jpg" title="office workers work in team at table with laptops" alt="office workers work in team at table with laptops vector image"></noscript></a></li>
+						<li data-id="22070561" data-title="female programmer coding on a computer" data-src="https://cdn2.vectorstock.com/i/thumbs/05/61/female-programmer-coding-on-a-computer-vector-22070561.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/female-programmer-coding-on-a-computer-vector-22070561" title="female programmer coding on a computer vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/05/61/female-programmer-coding-on-a-computer-vector-22070561.jpg" title="female programmer coding on a computer" alt="female programmer coding on a computer vector image"></noscript></a></li>
+						<li data-id="21131116" data-title="happy girl scouts sitting at laptops and learning" data-src="https://cdn2.vectorstock.com/i/thumbs/11/16/happy-girl-scouts-sitting-at-laptops-and-learning-vector-21131116.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/happy-girl-scouts-sitting-at-laptops-and-learning-vector-21131116" title="happy girl scouts sitting at laptops and learning vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/11/16/happy-girl-scouts-sitting-at-laptops-and-learning-vector-21131116.jpg" title="happy girl scouts sitting at laptops and learning" alt="happy girl scouts sitting at laptops and learning vector image"></noscript></a></li>
+						<li data-id="23200900" data-title="workplace of programmer or coder" data-src="https://cdn1.vectorstock.com/i/thumbs/09/00/workplace-of-programmer-or-coder-vector-23200900.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/workplace-of-programmer-or-coder-vector-23200900" title="workplace of programmer or coder vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/09/00/workplace-of-programmer-or-coder-vector-23200900.jpg" title="workplace of programmer or coder" alt="workplace of programmer or coder vector image"></noscript></a></li>
+						<li data-id="26187018" data-title="programmer concept modern design concept web" data-src="https://cdn4.vectorstock.com/i/thumbs/70/18/programmer-concept-modern-design-concept-web-vector-26187018.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/programmer-concept-modern-design-concept-web-vector-26187018" title="programmer concept modern design concept web vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/70/18/programmer-concept-modern-design-concept-web-vector-26187018.jpg" title="programmer concept modern design concept web" alt="programmer concept modern design concept web vector image"></noscript></a></li>
+						<li data-id="30015380" data-title="a girl sitting on chair works on laptop in" data-src="https://cdn1.vectorstock.com/i/thumbs/53/80/a-girl-sitting-on-chair-works-on-laptop-in-vector-30015380.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/a-girl-sitting-on-chair-works-on-laptop-in-vector-30015380" title="a girl sitting on chair works on laptop in vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/53/80/a-girl-sitting-on-chair-works-on-laptop-in-vector-30015380.jpg" title="a girl sitting on chair works on laptop in" alt="a girl sitting on chair works on laptop in vector image"></noscript></a></li>
+						<li data-id="22378697" data-title="programmer at work concept coding or online" data-src="https://cdn3.vectorstock.com/i/thumbs/86/97/programmer-at-work-concept-coding-or-online-vector-22378697.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/programmer-at-work-concept-coding-or-online-vector-22378697" title="programmer at work concept coding or online vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/86/97/programmer-at-work-concept-coding-or-online-vector-22378697.jpg" title="programmer at work concept coding or online" alt="programmer at work concept coding or online vector image"></noscript></a></li>
+						<li data-id="28851358" data-title="girl holding a laptop on her lap and sitting on" data-src="https://cdn4.vectorstock.com/i/thumbs/13/58/girl-holding-a-laptop-on-her-lap-and-sitting-on-vector-28851358.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/girl-holding-a-laptop-on-her-lap-and-sitting-on-vector-28851358" title="girl holding a laptop on her lap and sitting on vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/13/58/girl-holding-a-laptop-on-her-lap-and-sitting-on-vector-28851358.jpg" title="girl holding a laptop on her lap and sitting on" alt="girl holding a laptop on her lap and sitting on vector image"></noscript></a></li>
+						<li data-id="27694079" data-title="woman blogger working on laptop with a cup of" data-src="https://cdn5.vectorstock.com/i/thumbs/40/79/woman-blogger-working-on-laptop-with-a-cup-of-vector-27694079.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/woman-blogger-working-on-laptop-with-a-cup-of-vector-27694079" title="woman blogger working on laptop with a cup of vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/40/79/woman-blogger-working-on-laptop-with-a-cup-of-vector-27694079.jpg" title="woman blogger working on laptop with a cup of" alt="woman blogger working on laptop with a cup of vector image"></noscript></a></li>
+						<li data-id="30132037" data-title="a business young woman working in a office" data-src="https://cdn3.vectorstock.com/i/thumbs/20/37/a-business-young-woman-working-in-a-office-vector-30132037.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/a-business-young-woman-working-in-a-office-vector-30132037" title="a business young woman working in a office vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/20/37/a-business-young-woman-working-in-a-office-vector-30132037.jpg" title="a business young woman working in a office" alt="a business young woman working in a office vector image"></noscript></a></li>
+						<li data-id="21517066" data-title="isometric programmer coding new project sitting on" data-src="https://cdn2.vectorstock.com/i/thumbs/70/66/isometric-programmer-coding-new-project-sitting-on-vector-21517066.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/isometric-programmer-coding-new-project-sitting-on-vector-21517066" title="isometric programmer coding new project sitting on vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/70/66/isometric-programmer-coding-new-project-sitting-on-vector-21517066.jpg" title="isometric programmer coding new project sitting on" alt="isometric programmer coding new project sitting on vector image"></noscript></a></li>
+						<li data-id="22780750" data-title="business people behind a desk working on a laptop" data-src="https://cdn1.vectorstock.com/i/thumbs/07/50/business-people-behind-a-desk-working-on-a-laptop-vector-22780750.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/business-people-behind-a-desk-working-on-a-laptop-vector-22780750" title="business people behind a desk working on a laptop vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/07/50/business-people-behind-a-desk-working-on-a-laptop-vector-22780750.jpg" title="business people behind a desk working on a laptop" alt="business people behind a desk working on a laptop vector image"></noscript></a></li>
+						<li data-id="26552840" data-title="school students man woman sitting using notebook" data-src="https://cdn1.vectorstock.com/i/thumbs/28/40/school-students-man-woman-sitting-using-notebook-vector-26552840.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/school-students-man-woman-sitting-using-notebook-vector-26552840" title="school students man woman sitting using notebook vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/28/40/school-students-man-woman-sitting-using-notebook-vector-26552840.jpg" title="school students man woman sitting using notebook" alt="school students man woman sitting using notebook vector image"></noscript></a></li>
+						<li data-id="23241138" data-title="concept of business woman" data-src="https://cdn4.vectorstock.com/i/thumbs/11/38/concept-of-business-woman-vector-23241138.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/concept-of-business-woman-vector-23241138" title="concept of business woman vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/11/38/concept-of-business-woman-vector-23241138.jpg" title="concept of business woman" alt="concept of business woman vector image"></noscript></a></li>
+						<li data-id="29189710" data-title="young woman working home as freelancer" data-src="https://cdn1.vectorstock.com/i/thumbs/97/10/young-woman-working-home-as-freelancer-vector-29189710.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/young-woman-working-home-as-freelancer-vector-29189710" title="young woman working home as freelancer vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/97/10/young-woman-working-home-as-freelancer-vector-29189710.jpg" title="young woman working home as freelancer" alt="young woman working home as freelancer vector image"></noscript></a></li>
+						<li data-id="31037773" data-title="people creativity technology girl target color" data-src="https://cdn4.vectorstock.com/i/thumbs/77/73/people-creativity-technology-girl-target-color-vector-31037773.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/people-creativity-technology-girl-target-color-vector-31037773" title="people creativity technology girl target color vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/77/73/people-creativity-technology-girl-target-color-vector-31037773.jpg" title="people creativity technology girl target color" alt="people creativity technology girl target color vector image"></noscript></a></li>
+						<li data-id="22266084" data-title="cloud computing - modern isometric web" data-src="https://cdn5.vectorstock.com/i/thumbs/60/84/cloud-computing-modern-isometric-web-vector-22266084.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/cloud-computing-modern-isometric-web-vector-22266084" title="cloud computing - modern isometric web vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/60/84/cloud-computing-modern-isometric-web-vector-22266084.jpg" title="cloud computing - modern isometric web" alt="cloud computing - modern isometric web vector image"></noscript></a></li>
+						<li data-id="18289285" data-title="freelancer working at night concept young woman" data-src="https://cdn1.vectorstock.com/i/thumbs/92/85/freelancer-working-at-night-concept-young-woman-vector-18289285.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/freelancer-working-at-night-concept-young-woman-vector-18289285" title="freelancer working at night concept young woman vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/92/85/freelancer-working-at-night-concept-young-woman-vector-18289285.jpg" title="freelancer working at night concept young woman" alt="freelancer working at night concept young woman vector image"></noscript></a></li>
+						<li data-id="27627631" data-title="designer creating new project" data-src="https://cdn2.vectorstock.com/i/thumbs/76/31/designer-creating-new-project-vector-27627631.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/designer-creating-new-project-vector-27627631" title="designer creating new project vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/76/31/designer-creating-new-project-vector-27627631.jpg" title="designer creating new project" alt="designer creating new project vector image"></noscript></a></li>
+						<li data-id="27938335" data-title="home office concept flat style design" data-src="https://cdn1.vectorstock.com/i/thumbs/83/35/home-office-concept-flat-style-design-vector-27938335.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/home-office-concept-flat-style-design-vector-27938335" title="home office concept flat style design vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/83/35/home-office-concept-flat-style-design-vector-27938335.jpg" title="home office concept flat style design" alt="home office concept flat style design vector image"></noscript></a></li>
+						<li data-id="24483923" data-title="home interior landing page woman using laptop" data-src="https://cdn4.vectorstock.com/i/thumbs/39/23/home-interior-landing-page-woman-using-laptop-vector-24483923.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/home-interior-landing-page-woman-using-laptop-vector-24483923" title="home interior landing page woman using laptop vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/39/23/home-interior-landing-page-woman-using-laptop-vector-24483923.jpg" title="home interior landing page woman using laptop" alt="home interior landing page woman using laptop vector image"></noscript></a></li>
+						<li data-id="23669814" data-title="happy girl study notebook sketch school" data-src="https://cdn5.vectorstock.com/i/thumbs/98/14/happy-girl-study-notebook-sketch-school-vector-23669814.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/happy-girl-study-notebook-sketch-school-vector-23669814" title="happy girl study notebook sketch school vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/98/14/happy-girl-study-notebook-sketch-school-vector-23669814.jpg" title="happy girl study notebook sketch school" alt="happy girl study notebook sketch school vector image"></noscript></a></li>
+						<li data-id="30496775" data-title="woman working at home girl with a laptop lies on" data-src="https://cdn1.vectorstock.com/i/thumbs/67/75/woman-working-at-home-girl-with-a-laptop-lies-on-vector-30496775.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/woman-working-at-home-girl-with-a-laptop-lies-on-vector-30496775" title="woman working at home girl with a laptop lies on vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/67/75/woman-working-at-home-girl-with-a-laptop-lies-on-vector-30496775.jpg" title="woman working at home girl with a laptop lies on" alt="woman working at home girl with a laptop lies on vector image"></noscript></a></li>
+						<li data-id="21677539" data-title="a business woman with a tablet" data-src="https://cdn5.vectorstock.com/i/thumbs/75/39/a-business-woman-with-a-tablet-vector-21677539.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/a-business-woman-with-a-tablet-vector-21677539" title="a business woman with a tablet vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/75/39/a-business-woman-with-a-tablet-vector-21677539.jpg" title="a business woman with a tablet" alt="a business woman with a tablet vector image"></noscript></a></li>
+						<li data-id="26906793" data-title="business woman happy working on office work place" data-src="https://cdn4.vectorstock.com/i/thumbs/67/93/business-woman-happy-working-on-office-work-place-vector-26906793.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/business-woman-happy-working-on-office-work-place-vector-26906793" title="business woman happy working on office work place vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/67/93/business-woman-happy-working-on-office-work-place-vector-26906793.jpg" title="business woman happy working on office work place" alt="business woman happy working on office work place vector image"></noscript></a></li>
+						<li data-id="21579176" data-title="web design and development isometric" data-src="https://cdn2.vectorstock.com/i/thumbs/91/76/web-design-and-development-isometric-vector-21579176.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/web-design-and-development-isometric-vector-21579176" title="web design and development isometric vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/91/76/web-design-and-development-isometric-vector-21579176.jpg" title="web design and development isometric" alt="web design and development isometric vector image"></noscript></a></li>
+						<li data-id="27759324" data-title="happy woman sitting on sofa with laptop" data-src="https://cdn5.vectorstock.com/i/thumbs/93/24/happy-woman-sitting-on-sofa-with-laptop-vector-27759324.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/happy-woman-sitting-on-sofa-with-laptop-vector-27759324" title="happy woman sitting on sofa with laptop vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/93/24/happy-woman-sitting-on-sofa-with-laptop-vector-27759324.jpg" title="happy woman sitting on sofa with laptop" alt="happy woman sitting on sofa with laptop vector image"></noscript></a></li>
+						<li data-id="29425731" data-title="woman with headset on her head sitting on a chair" data-src="https://cdn2.vectorstock.com/i/thumbs/57/31/woman-with-headset-on-her-head-sitting-on-a-chair-vector-29425731.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/woman-with-headset-on-her-head-sitting-on-a-chair-vector-29425731" title="woman with headset on her head sitting on a chair vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/57/31/woman-with-headset-on-her-head-sitting-on-a-chair-vector-29425731.jpg" title="woman with headset on her head sitting on a chair" alt="woman with headset on her head sitting on a chair vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-similar-to_23879397" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_TopVectors" rel="nofollow">TopVectors</a></strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/58/73/software-engineer-programmers-writing-code-vector-25655873.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/software-engineer-programmers-writing-code-vector-25655873" title="software engineer programmers writing code vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/58/73/software-engineer-programmers-writing-code-vector-25655873.jpg" title="software engineer programmers writing code" alt="software engineer programmers writing code vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/70/87/people-using-laptop-computers-set-young-men-and-vector-27437087.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/people-using-laptop-computers-set-young-men-and-vector-27437087" title="people using laptop computers set young men and vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/70/87/people-using-laptop-computers-set-young-men-and-vector-27437087.jpg" title="people using laptop computers set young men and" alt="people using laptop computers set young men and vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/70/54/people-using-laptop-computers-set-men-and-women-vector-27437054.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/people-using-laptop-computers-set-men-and-women-vector-27437054" title="people using laptop computers set men and women vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/70/54/people-using-laptop-computers-set-men-and-women-vector-27437054.jpg" title="people using laptop computers set men and women" alt="people using laptop computers set men and women vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/70/58/people-using-laptop-computers-set-young-men-and-vector-27437058.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/people-using-laptop-computers-set-young-men-and-vector-27437058" title="people using laptop computers set young men and vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/70/58/people-using-laptop-computers-set-young-men-and-vector-27437058.jpg" title="people using laptop computers set young men and" alt="people using laptop computers set young men and vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/70/92/people-using-laptop-computers-set-young-men-and-vector-27437092.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/people-using-laptop-computers-set-young-men-and-vector-27437092" title="people using laptop computers set young men and vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/70/92/people-using-laptop-computers-set-young-men-and-vector-27437092.jpg" title="people using laptop computers set young men and" alt="people using laptop computers set young men and vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/79/09/giant-laptop-tiny-young-woman-sitting-with-vector-30737909.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/giant-laptop-tiny-young-woman-sitting-with-vector-30737909" title="giant laptop tiny young woman sitting with vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/79/09/giant-laptop-tiny-young-woman-sitting-with-vector-30737909.jpg" title="giant laptop tiny young woman sitting with" alt="giant laptop tiny young woman sitting with vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/26/38/professional-programmer-charatcter-smiling-man-vector-21172638.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/professional-programmer-charatcter-smiling-man-vector-21172638" title="professional programmer charatcter smiling man vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/26/38/professional-programmer-charatcter-smiling-man-vector-21172638.jpg" title="professional programmer charatcter smiling man" alt="professional programmer charatcter smiling man vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/42/35/flat-set-of-young-people-with-computers-vector-21294235.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/flat-set-of-young-people-with-computers-vector-21294235" title="flat set of young people with computers vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/42/35/flat-set-of-young-people-with-computers-vector-21294235.jpg" title="flat set of young people with computers" alt="flat set of young people with computers vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/42/39/flat-set-of-people-with-computers-young-vector-21294239.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/flat-set-of-people-with-computers-young-vector-21294239" title="flat set of people with computers young vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/42/39/flat-set-of-people-with-computers-young-vector-21294239.jpg" title="flat set of people with computers young" alt="flat set of people with computers young vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/58/62/team-engineers-working-at-project-programmer-vector-25655862.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/team-engineers-working-at-project-programmer-vector-25655862" title="team engineers working at project programmer vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/58/62/team-engineers-working-at-project-programmer-vector-25655862.jpg" title="team engineers working at project programmer" alt="team engineers working at project programmer vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="21403786" data-title="freelancer girl working at home office with laptop" data-src="https://cdn2.vectorstock.com/i/thumbs/37/86/freelancer-girl-working-at-home-office-with-laptop-vector-21403786.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/freelancer-girl-working-at-home-office-with-laptop-vector-21403786" title="freelancer girl working at home office with laptop vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/37/86/freelancer-girl-working-at-home-office-with-laptop-vector-21403786.jpg" title="freelancer girl working at home office with laptop" alt="freelancer girl working at home office with laptop vector image vector image"></noscript></a></li>
+						<li data-id="21403837" data-title="girl working with laptop while sitting in airplane" data-src="https://cdn3.vectorstock.com/i/thumbs/38/37/girl-working-with-laptop-while-sitting-in-airplane-vector-21403837.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/girl-working-with-laptop-while-sitting-in-airplane-vector-21403837" title="girl working with laptop while sitting in airplane vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/38/37/girl-working-with-laptop-while-sitting-in-airplane-vector-21403837.jpg" title="girl working with laptop while sitting in airplane" alt="girl working with laptop while sitting in airplane vector image vector image"></noscript></a></li>
+						<li data-id="21403803" data-title="freelancer girl working at home remote working" data-src="https://cdn4.vectorstock.com/i/thumbs/38/03/freelancer-girl-working-at-home-remote-working-vector-21403803.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/freelancer-girl-working-at-home-remote-working-vector-21403803" title="freelancer girl working at home remote working vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/38/03/freelancer-girl-working-at-home-remote-working-vector-21403803.jpg" title="freelancer girl working at home remote working" alt="freelancer girl working at home remote working vector image vector image"></noscript></a></li>
+						<li data-id="24795950" data-title="flat set people with laptops men and" data-src="https://cdn1.vectorstock.com/i/thumbs/59/50/flat-set-people-with-laptops-men-and-vector-24795950.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/flat-set-people-with-laptops-men-and-vector-24795950" title="flat set people with laptops men and vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/59/50/flat-set-people-with-laptops-men-and-vector-24795950.jpg" title="flat set people with laptops men and" alt="flat set people with laptops men and vector image vector image"></noscript></a></li>
+						<li data-id="22666491" data-title="woman working in office" data-src="https://cdn2.vectorstock.com/i/thumbs/64/91/woman-working-in-office-vector-22666491.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/woman-working-in-office-vector-22666491" title="woman working in office vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/64/91/woman-working-in-office-vector-22666491.jpg" title="woman working in office" alt="woman working in office vector image vector image"></noscript></a></li>
+						<li data-id="29709291" data-title="businesswoman sitting at desk and gesturing" data-src="https://cdn2.vectorstock.com/i/thumbs/92/91/businesswoman-sitting-at-desk-and-gesturing-vector-29709291.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/businesswoman-sitting-at-desk-and-gesturing-vector-29709291" title="businesswoman sitting at desk and gesturing vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/92/91/businesswoman-sitting-at-desk-and-gesturing-vector-29709291.jpg" title="businesswoman sitting at desk and gesturing" alt="businesswoman sitting at desk and gesturing vector image vector image"></noscript></a></li>
+						<li data-id="22666493" data-title="woman working in office" data-src="https://cdn4.vectorstock.com/i/thumbs/64/93/woman-working-in-office-vector-22666493.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/woman-working-in-office-vector-22666493" title="woman working in office vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/64/93/woman-working-in-office-vector-22666493.jpg" title="woman working in office" alt="woman working in office vector image vector image"></noscript></a></li>
+						<li data-id="22666495" data-title="woman working in office" data-src="https://cdn1.vectorstock.com/i/thumbs/64/95/woman-working-in-office-vector-22666495.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/woman-working-in-office-vector-22666495" title="woman working in office vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/64/95/woman-working-in-office-vector-22666495.jpg" title="woman working in office" alt="woman working in office vector image vector image"></noscript></a></li>
+						<li data-id="29709306" data-title="businesswoman sitting at desk looking scared" data-src="https://cdn2.vectorstock.com/i/thumbs/93/06/businesswoman-sitting-at-desk-looking-scared-vector-29709306.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/businesswoman-sitting-at-desk-looking-scared-vector-29709306" title="businesswoman sitting at desk looking scared vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/93/06/businesswoman-sitting-at-desk-looking-scared-vector-29709306.jpg" title="businesswoman sitting at desk looking scared" alt="businesswoman sitting at desk looking scared vector image vector image"></noscript></a></li>
+						<li data-id="25656828" data-title="flat set people with laptops men and" data-src="https://cdn4.vectorstock.com/i/thumbs/68/28/flat-set-people-with-laptops-men-and-vector-25656828.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/flat-set-people-with-laptops-men-and-vector-25656828" title="flat set people with laptops men and vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/68/28/flat-set-people-with-laptops-men-and-vector-25656828.jpg" title="flat set people with laptops men and" alt="flat set people with laptops men and vector image vector image"></noscript></a></li>
+						<li data-id="29709305" data-title="scared businesswoman sitting at desk looking" data-src="https://cdn1.vectorstock.com/i/thumbs/93/05/scared-businesswoman-sitting-at-desk-looking-vector-29709305.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/scared-businesswoman-sitting-at-desk-looking-vector-29709305" title="scared businesswoman sitting at desk looking vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/93/05/scared-businesswoman-sitting-at-desk-looking-vector-29709305.jpg" title="scared businesswoman sitting at desk looking" alt="scared businesswoman sitting at desk looking vector image vector image"></noscript></a></li>
+						<li data-id="29709295" data-title="scared young woman looking at her laptop computer" data-src="https://cdn1.vectorstock.com/i/thumbs/92/95/scared-young-woman-looking-at-her-laptop-computer-vector-29709295.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/scared-young-woman-looking-at-her-laptop-computer-vector-29709295" title="scared young woman looking at her laptop computer vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/92/95/scared-young-woman-looking-at-her-laptop-computer-vector-29709295.jpg" title="scared young woman looking at her laptop computer" alt="scared young woman looking at her laptop computer vector image vector image"></noscript></a></li>
+						<li data-id="29709298" data-title="scared young woman covering with hand her eyes" data-src="https://cdn4.vectorstock.com/i/thumbs/92/98/scared-young-woman-covering-with-hand-her-eyes-vector-29709298.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/scared-young-woman-covering-with-hand-her-eyes-vector-29709298" title="scared young woman covering with hand her eyes vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/92/98/scared-young-woman-covering-with-hand-her-eyes-vector-29709298.jpg" title="scared young woman covering with hand her eyes" alt="scared young woman covering with hand her eyes vector image vector image"></noscript></a></li>
+						<li data-id="27426604" data-title="people looking in gadgets screen set men women" data-src="https://cdn5.vectorstock.com/i/thumbs/66/04/people-looking-in-gadgets-screen-set-men-women-vector-27426604.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/people-looking-in-gadgets-screen-set-men-women-vector-27426604" title="people looking in gadgets screen set men women vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/66/04/people-looking-in-gadgets-screen-set-men-women-vector-27426604.jpg" title="people looking in gadgets screen set men women" alt="people looking in gadgets screen set men women vector image vector image"></noscript></a></li>
+						<li data-id="24300634" data-title="woman at office daily routine activities of women" data-src="https://cdn5.vectorstock.com/i/thumbs/06/34/woman-at-office-daily-routine-activities-of-women-vector-24300634.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/woman-at-office-daily-routine-activities-of-women-vector-24300634" title="woman at office daily routine activities of women vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/06/34/woman-at-office-daily-routine-activities-of-women-vector-24300634.jpg" title="woman at office daily routine activities of women" alt="woman at office daily routine activities of women vector image vector image"></noscript></a></li>
+						<li data-id="20759888" data-title="smiling woman in headset set for label design" data-src="https://cdn4.vectorstock.com/i/thumbs/98/88/smiling-woman-in-headset-set-for-label-design-vector-20759888.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/smiling-woman-in-headset-set-for-label-design-vector-20759888" title="smiling woman in headset set for label design vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/98/88/smiling-woman-in-headset-set-for-label-design-vector-20759888.jpg" title="smiling woman in headset set for label design" alt="smiling woman in headset set for label design vector image vector image"></noscript></a></li>
+						<li data-id="27426595" data-title="people looking in gadgets screen set men women" data-src="https://cdn1.vectorstock.com/i/thumbs/65/95/people-looking-in-gadgets-screen-set-men-women-vector-27426595.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/people-looking-in-gadgets-screen-set-men-women-vector-27426595" title="people looking in gadgets screen set men women vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/65/95/people-looking-in-gadgets-screen-set-men-women-vector-27426595.jpg" title="people looking in gadgets screen set men women" alt="people looking in gadgets screen set men women vector image vector image"></noscript></a></li>
+						<li data-id="29971500" data-title="stressed businessman sitting at desk grabbing" data-src="https://cdn1.vectorstock.com/i/thumbs/15/00/stressed-businessman-sitting-at-desk-grabbing-vector-29971500.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/stressed-businessman-sitting-at-desk-grabbing-vector-29971500" title="stressed businessman sitting at desk grabbing vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/15/00/stressed-businessman-sitting-at-desk-grabbing-vector-29971500.jpg" title="stressed businessman sitting at desk grabbing" alt="stressed businessman sitting at desk grabbing vector image vector image"></noscript></a></li>
+						<li data-id="27426588" data-title="people looking in gadgets screen set men women" data-src="https://cdn4.vectorstock.com/i/thumbs/65/88/people-looking-in-gadgets-screen-set-men-women-vector-27426588.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/people-looking-in-gadgets-screen-set-men-women-vector-27426588" title="people looking in gadgets screen set men women vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/65/88/people-looking-in-gadgets-screen-set-men-women-vector-27426588.jpg" title="people looking in gadgets screen set men women" alt="people looking in gadgets screen set men women vector image vector image"></noscript></a></li>
+						<li data-id="27426767" data-title="people looking in gadgets screen set smiling men" data-src="https://cdn3.vectorstock.com/i/thumbs/67/67/people-looking-in-gadgets-screen-set-smiling-men-vector-27426767.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/people-looking-in-gadgets-screen-set-smiling-men-vector-27426767" title="people looking in gadgets screen set smiling men vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/67/67/people-looking-in-gadgets-screen-set-smiling-men-vector-27426767.jpg" title="people looking in gadgets screen set smiling men" alt="people looking in gadgets screen set smiling men vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_TopVectors" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/coding-vectors">Coding</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/programmer-vectors">Programmer</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/laptop-vectors">Laptop</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/female-vectors">Female</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/computer-vectors">Computer</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/woman-vectors">Woman</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/developer-vectors">Developer</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/flat-vectors">Flat</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/cartoon-vectors">Cartoon</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/girl-vectors">Girl</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/character-vectors">Character</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/vector-vectors">Vector</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/technology-vectors">Technology</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/business-vectors">Business</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/illustration-vectors">Illustration</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/software-vectors">Software</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/young-vectors">Young</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/programming-vectors">Programming</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/concept-vectors">Concept</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/work-vectors">Work</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/job-vectors">Job</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/internet-vectors">Internet</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/creative-vectors">Creative</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/freelancer-vectors">Freelancer</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/office-vectors">Office</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/workplace-vectors">Workplace</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/coder-vectors">Coder</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/screen-vectors">Screen</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/people-vectors">People</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/web-vectors">Web</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/application-vectors">Application</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/person-vectors">Person</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/freelance-vectors">Freelance</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/user-vectors">User</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/data-vectors">Data</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/designer-vectors">Designer</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/development-vectors">Development</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/employee-vectors">Employee</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/digital-vectors">Digital</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/worker-vectors">Worker</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/process-vectors">Process</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/code-vectors">Code</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/monitor-vectors">Monitor</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/project-vectors">Project</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/table-vectors">Table</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/information-vectors">Information</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/network-vectors">Network</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/working-vectors">Working</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/website-vectors">Website</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/script-vectors">Script</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/" title="Home">Home</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.vectorstock.com/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="https://www.vectorstock.com/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="https://www.vectorstock.com/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+					<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="https://www.vectorstock.com/signup" title="Join Now">Join Now</a></li>
+						<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="https://www.vectorstock.com/royalty-free-vector/female-programmer-character-coding-on-laptop-vector-23879397?signup=1&amp;contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="https://www.vectorstock.com/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="http://www.facebook.com/VectorStock" target="_blank"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="http://pinterest.com/vectorstock/" target="_blank"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				© 2020. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+	</div></footer>
+
+
+	<script src="./girl_code_files/f.txt"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":37,"atts":"SRoHQ14YGEo=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+
+</body></html>
